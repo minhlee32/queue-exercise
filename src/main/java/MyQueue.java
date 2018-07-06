@@ -1,9 +1,9 @@
 public class MyQueue {
-    int capacity;
-    int queueArr[];
-    int head;
-    int tail = -1;
-    int currentSize = 0;
+    private int capacity;
+    private int queueArr[];
+    private int head;
+    private int tail = -1;
+    private int currentSize = 0;
 
     public MyQueue(int queueSize) {
         this.capacity = queueSize;
